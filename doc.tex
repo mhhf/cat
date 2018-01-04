@@ -125,6 +125,34 @@
   \end{field}
 \end{note}
 
+\begin{note}
+  \xplain{a74acbfb-3d45-4205-b9ce-b1d2a29c0cd6}
+  \begin{field}
+    Def. Free Monoid
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+    A monoid M is \textbf{freely generated} by a subset A of M with:
+    \begin{enumerate}
+      \item \textbf{no junk}: every element $m\in M$ can be written as a product of elemens of A\\
+        \[ m = a_1 \cdot_M ... \cdot_M a_n,\ \ \ a_i\in M \]
+      \item \textbf{no noise}: No "nontrivial" relations hold in M: if $a_1 ... a_n = a_1' ... a_n'$ then this is required by the axioms for monoids.
+    \end{enumerate}
+  \end{field}
+\end{note}
+
+\begin{note}
+  \xplain{a04e8712-787b-4914-94e1-ab0e0461661b}
+  \begin{field}
+    Def. Universal Mapping Propperty M(A)
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+    given $i: A \rightarrow |M(A)|$, Monoid N and $f: A \rightarrow |N|$ there is a unique monoid homomorphism $\bar f: M(A) \rightarrow N$ s.t. $|\bar f|\circ i = f$
+  \end{field}
+\end{note}
+
+
 
 
 
