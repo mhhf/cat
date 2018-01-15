@@ -69,6 +69,7 @@
   \end{field} \\
   \noindent\rule[0.5ex]{\linewidth}{1pt}
   \begin{field}
+    A ``homomorphism of categories'' is called a functor.\\
     Let \textbf{C}, \textbf{D} be categories, then $F: \textbf{C} \rightarrow \textbf{D}$ is a functor with:\\
     \begin{enumerate}
       \item $F(f: A \rightarrow B) = F(f): F(A) \rightarrow F(B)$
@@ -107,7 +108,8 @@
   \end{field} \\
   \noindent\rule[0.5ex]{\linewidth}{1pt}
   \begin{field}
-    In any category \textbf{C}, an arrof $f: A\rightarrow B$ is an isomorphism, if there is an arrow $g: B\rightarrow A$ in \textbf{C} such that.
+    An abstract categroy 
+    In any category \textbf{C}, an arrow $f: A\rightarrow B$ is an isomorphism, if there is an arrow $g: B\rightarrow A$ in \textbf{C} such that.
     \[ g\circ f = 1_A\text{ and }f\circ g = 1_B \]
     we write $f^{-1} = g$.
     A is isomorphic to B ($A\cong B$) if there exists an isomorphism between them.
@@ -163,18 +165,63 @@
   \end{field}
 \end{note}
 
+\begin{note}
+  \xplain{a04e8724-787b-4914-94e1-ab0e0461661b}
+  \begin{field}
+   Cayley's theorem regarding abstract groups
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+   Any abstract group can be represetned as a ``concrete'' one, that is, a group of permutations of a set. Gerneralized to any category that is not
+   ``too big'' can be represetned as one that is ``concrete,'' that is, a category of sets and functions.\\
+    while not every category has special sets and functions as its objects and arrows, every category is isoomorphic to such a one.
+  \end{field}
+\end{note}
 
+\begin{note}
+  \xplain{a04e8734-787b-4914-94e1-ab0e0461661b}
+  \begin{field}
+  The opposite (or ``dual'') category $C^{op}$ of a category C
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+  Has the same objects as \textbf{C}, and an arrow $f: C \rightarrow D$ in \textbf{$C^{op}$} is an arrow $f: D \rightarrow C$ in \textbf{C}.
+  \textbf{$C^{op}$} is \textbf{C} with all the arrows turned around.
+  \end{field}
+\end{note}
 
+\begin{note}
+  \xplain{a04e8735-787b-4914-94e1-ab0e0461661b}
+  \begin{field}
+  Def Monomorphism
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+  If given any $\textit{g,h}: C \rightarrow A$, \textit{fg} = \textit{fh} implies \textit{g} = \textit{h} \\
 
+  \begin{center}
+  $C \overset{g}{\underset{h}{\rightrightarrows}} A \overset{f}{\rightarrow} B$
+  \end{center}
 
+  *related to injective (1-to-1)
+  \end{field}
+\end{note}
 
+\begin{note}
+  \xplain{a04e8736-787b-4914-94e1-ab0e0461661b}
+  \begin{field}
+  Def Epimorphism
+  \end{field} \\
+  \noindent\rule[0.5ex]{\linewidth}{1pt}
+  \begin{field}
+  If given any $\textit{i,j}: B \rightarrow D$, \textit{if} = \textit{jf} implies \textit{i} = \textit{j} \\
 
+  \begin{center}
+  $f: A \overset{f}{\rightarrow} B \overset{i}{\underset{j}{\rightrightarrows}} D$
+  \end{center}
 
-
-
-
-
-
-
+  *related to surjective (onto)
+  \end{field}
+\end{note}
 
 \end{document}
