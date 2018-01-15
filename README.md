@@ -2,6 +2,9 @@
 This document serves the generation of flashcarts to remember and study
 [Category Theory](angg.twu.net/MINICATS/awodey__category_theory.pdf).
 
+## Dependencies
+You will need to have `latex` installed on your machine.
+
 ## SetUp
 1. Install and Get familiar with Anki: http://ankisrs.net/
 (I use it on PC + Phone)
